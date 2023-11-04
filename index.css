@@ -1,0 +1,248 @@
+body{
+    background-image: url(net-bg.jpg);
+    box-shadow: 0px 750px 900px 400px rgba(0,0,0,0.75);
+    box-shadow: inset to left, 200px, 300px, 500px, 600px, black;
+    overflow: hidden;
+
+
+}
+
+#netflix-logo{
+    position: relative;
+    height: 120px;
+    left: 6%;
+}
+#dropdow{
+    display: inline;
+    position: relative;
+    height: 38px;
+    width: 130px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border-radius: 6px;
+    top: -107px;
+    border-color: rgb(197, 197, 197);
+    left: 76%;
+}
+.Navbar li button{
+    position: absolute;
+    height: 39px;
+    width: 87px;
+    top: 6.6%;
+    left: 87%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255, 7, 7);
+    color: rgb(255, 255, 255);
+    
+}
+
+@media only screen and (max-width:1200px) {
+    /* For tablets: */
+    body{
+        background-image: 100px;
+    }
+    #dropdowns{
+      width: 80%;
+      padding: 0;
+    }
+    #dropdow{
+      width: 20%;
+      top: -97px;
+    }
+    #login{
+        left: 80%;
+        width: 16%;
+        top: 5%;
+        color: white;
+    }
+    #netflix-logo{
+        left: -1%;
+        height: 99px;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  #navbar1{
+    position: absolute;
+    height: 40%;
+    width: 115%;
+    left: -6%;
+    top: -78px;
+    z-index: -1;
+    filter: blur(70px);
+
+  }
+  /* #navbar2{
+    position: absolute;
+    height: 30%;
+    width: 90%;
+    left: 650.3px;
+    transform: rotate(90deg);
+    top: -78px;
+    z-index: -1;
+    filter: blur(30px);
+    background-color: black;
+
+  } */
+
+  .main-containt h1{
+    position: absolute;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    left: 15%;
+  }
+  h4{
+    position: absolute;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    left: 40%;
+    top: 43%;
+
+  }
+  .main-containt h2{
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, ;
+    font-size: 25px;
+    left: 35%;
+    top: 59%;
+  }
+  h3{
+    position: absolute;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    left: 20%;
+    top: 65%;
+
+  }
+  #email-input{
+    position: absolute;
+    height: 9%;
+    top: 78%;
+    left: 22%;
+    width: 32%;
+    background-color: black;
+    color: white;
+    border-color: aliceblue;
+    background: transparent;
+  }
+
+  .main-containt button{
+    position: absolute;
+    height: 10%;
+    top: 78%;
+    left: 56%;
+    border-radius: 9px;
+    width: 12%;
+    text-align: center;
+    background-color: rgb(219, 6, 6);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+
+  }
+  .main-containt button:hover{
+    background-color: rgb(165, 24, 24);
+    transition: 1s;
+  }
+  ::placeholder{
+    position: absolute;
+    font-size: 20px;
+    top: 18px;
+    left: 9px;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    /* For tablets: */
+    body{
+        background-image: 100px;
+    }
+    #dropdow{
+        position: absolute;
+        top: 5%;
+        left: 55%;
+    }
+    #text{
+        position: absolute;
+        width: 80;
+        height: 90%;
+    }
+    #get{
+        width: 200px;
+    }
+   
+   
+    #login{
+        left: 80%;
+        width: 16%;
+        top: 5%;
+        color: white;
+    }
+    #netflix-logo{
+        left: 1%;
+        top: -10px;
+        height: 100px;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    /* For mobile phones: */
+    body{
+        overflow: hidden;
+    }
+    #login{
+        font-size: 13px;
+        top: 35px;
+        left: 240px;
+        width: 60px;
+    }
+    #dropdow{
+        font-size: 13px;
+        top: 36px;
+        left: 156px;
+    }
+    #netflix-logo{
+        height: 90px;
+        top: 3px;
+        left: -26px;
+    }
+    #text{
+        font-size: 30px;
+        left: 30px;
+    }
+    #prices{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+  #explain{
+    display: none;
+}
+#main{
+    top: 240px;
+    left: 29px;
+}
+#email-input{
+    top: 400px;
+    height: 60px;
+    width: 200px;
+    left: 30px;
+}
+#get{
+    top: 480px;
+    height: 60px;
+    width: 210px;
+    left: 30px;
+
+}
+  }
